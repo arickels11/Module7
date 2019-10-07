@@ -4,7 +4,15 @@ Topic 1 Assignment 1"""
 
 
 def make_list():
-    pass
+    the_list = []
+    for x in range(0, 3):
+        try:
+            user_input = (int(get_input()))
+        except ValueError:
+            print("try again!")
+        else:
+            the_list.append(user_input)
+    return the_list
 
 
 def get_input():
@@ -12,4 +20,4 @@ def get_input():
 
 
 if __name__ == '__main__':
-    make_list()
+    print(make_list())
