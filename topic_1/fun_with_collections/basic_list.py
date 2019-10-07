@@ -16,7 +16,7 @@ def make_list():
 
 
 def get_input():
-    pass
+    return int(input("pick a number "))
 
 
 if __name__ == '__main__':
