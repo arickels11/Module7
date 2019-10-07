@@ -4,6 +4,9 @@ Topic 1 Assignment 1"""
 
 
 def make_list():
+    """
+    :return: list of 3 user inputs
+    """
     the_list = []
     for x in range(0, 3):
         try:
@@ -16,6 +19,9 @@ def make_list():
 
 
 def get_input():
+    """
+    :return: integer input from user
+    """
     return int(input("pick a number "))
 
 
