@@ -5,7 +5,7 @@ Topic 1 Assignment 2"""
 
 def make_list():
     """
-    :return: list of 3 user inputs
+    :return: list of 3 user inputs as integers between and including 1 - 50
     """
     the_list = []
     for x in range(0, 3):
