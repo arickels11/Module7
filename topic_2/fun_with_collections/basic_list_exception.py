@@ -14,7 +14,12 @@ def make_list():
         except ValueError:
             raise ValueError
         else:
-            the_list.append(user_input)
+            if user_input < 1:
+                raise ValueError
+            elif user_input > 50:
+                raise ValueError
+            else:
+                the_list.append(user_input)
     return the_list
 
 
