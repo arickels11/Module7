@@ -9,6 +9,9 @@ class MyTestCase(unittest.TestCase):
     def test_search_list_not(self):
         self.assertEqual(-1, sort_and_search_list.search_list([1, 4, 6, 8, 10], 7))
 
+    def test_sort_list(self):
+        self.assertEqual([1, 4, 6, 8, 9, 19], sort_and_search_list.sort_list([1, 4, 6, 8, 10, 9]))
+
 
 if __name__ == '__main__':
     unittest.main()
