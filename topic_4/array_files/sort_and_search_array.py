@@ -16,7 +16,7 @@ def search_array(get_array, index_check):
         return -1
 
 
-def sort_array():
+def sort_array(unsorted_array):
     pass
 
 
