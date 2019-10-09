@@ -10,7 +10,10 @@ def search_array(get_array, index_check):
     :param index_check: number to check if in array
     :return: index number
     """
-    pass
+    try:
+        return get_array.index(index_check)
+    except ValueError:
+        return -1
 
 
 def sort_array():
@@ -18,5 +21,6 @@ def sort_array():
 
 
 if __name__ == '__main__':
-    search_array()
+    zarray = arr.array('d', [3.4, 8.7, 7.7, 9.6])
+    print(search_array(zarray, 8.7))
     sort_array()
