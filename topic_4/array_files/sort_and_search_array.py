@@ -5,6 +5,11 @@ import array as arr
 
 
 def search_array(get_array, index_check):
+    """
+    :param get_array: array to check
+    :param index_check: number to check if in array
+    :return: index number
+    """
     pass
 
 
